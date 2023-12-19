@@ -11,7 +11,7 @@
 
 .titulos p {
     text-align: center;
-    font-size: 70px;
+    font-size: 40px;
     
 }
 
@@ -26,10 +26,17 @@
     grid-gap: 20px;
 }
 
+.container-beneficios-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+}
+
 .imagen{
     border:1px solid black;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
 }
 
 .imagen-1{
@@ -46,6 +53,22 @@
     background-color: aquamarine;
 
 }
+.imagen-5{
+    background-color: #ff8300;
+
+}
+.imagen-6{
+    background-color: black;
+
+}
+.imagen-7{
+    background-color: azure;
+
+}
+.imagen-8{
+    background-color: antiquewhite;
+
+}
 
 .titlulo-beneficios{
     font-weight: bold;
@@ -53,4 +76,15 @@
 .parrafo-servicio{
     font-weight: 100;
     color:#bbbbbb;
+}
+
+.item-tipo-servicio{
+    border: 1px solid black;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
 }
