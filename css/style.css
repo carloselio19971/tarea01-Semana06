@@ -1,0 +1,56 @@
+.titulos h1  {
+    text-align: center;
+    color: #ff8300;
+    
+}
+
+.titulos{
+    width: 800px;
+    margin:0 auto;
+}
+
+.titulos p {
+    text-align: center;
+    font-size: 70px;
+    
+}
+
+.beneficios{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-beneficios{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+
+.imagen{
+    border:1px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+.imagen-1{
+    background-color: red;
+}
+
+.imagen-2{
+    background-color: blue;
+}
+.imagen-3{
+    background-color: yellow;
+}
+.imagen-4{
+    background-color: aquamarine;
+
+}
+
+.titlulo-beneficios{
+    font-weight: bold;
+}
+.parrafo-servicio{
+    font-weight: 100;
+    color:#bbbbbb;
+}
